@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-blue.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Ivan Novikov's homepage</title>
+    <script src="js/open page.js"></script>
+    <!--<script src="js/toggle theme.js"></script>-->
+    <base target="_blank">
+</head>
+
+<body id="main">
+  <p class="main_heading">Ivan Novikov's homepage
+    <a href="index_fr.html" target="_self"><img style="float: right;" alt="" src="images/flags/fra_flag.png" width="39px" height="23px"/></a>
+  </p>
+  
+  <button class="tablink" onclick="openPage('Main Page', this, '#1ac6ff')" id="defaultOpen">Main Page</button>
+  <button class="tablink" onclick="openPage('Publications', this, '#1ac6ff')">Publications</button>
+  <button class="tablink" onclick="openPage('CV', this, '#1ac6ff')">Curiculum Vitae</button>
+
+    <div id="Main Page" class="tabcontent">
+      <p>I am a 2nd year PhD student at Université Paris-Dauphine working at 
+        <a href="https://www.ceremade.dauphine.fr/">CEREMADE</a> 
+        under the supervision of
+        <a href="https://www.ceremade.dauphine.fr/~vigeral/indexenglish.html">Guillaume Vigeral</a>.
+      </p>
+      <p>
+        I also have have a M.Sc. in Optimization from Université Paris-Saclay 
+        (supervisor 
+        <a href="https://www.ceremade.dauphine.fr/~vigeral/indexenglish.html">Guillaume Vigeral</a>) 
+        and  a B.Sc. in Mathematics from Higher School of Economics (supervisor 
+        <a href="https://users.mccme.ru/mskopenkov/">Mikhail Skopenkov</a>).
+      </p>
+
+      <p><b>Research interests</b>: Repeated zero-sum games, in discrete and 
+        in continuous time; Limit value in repeated zero-sum games.</p>  
+        
+        <footer style="white-space: nowrap;">
+          <hr>
+          email: i.n*vik*v1998 [at] gmail.com, where *=o.
+          <span style="float:right">Last updated: 01/03/2023</span></p>
+        </footer>     
+    </div>
+    
+    <div id="Publications" class="tabcontent">
+      <p>All published articles are given together with its Arxiv version. 
+        Note that an Arxiv version may be different from a journal version.</p>
+
+      <h2>Published:</h2>
+      <ul>
+        <li>Percolation of three fluids on a honeycomb lattice, Monatsh Math 199, 611-626
+          (2022). 
+          <a href="https://doi.org/10.1007/s00605-022-01753-7">https://doi.org/10.1007/s00605-022-01753-7</a>.
+          <br>Additional materials:
+          <a href="files/pdf/additional materials/Experiment description.pdf">Experiment description</a>.
+          <a href="https://github.com/ivan-novikov98/percolation-in-hexagonal-lattice/blob/678162632acad33f56661d66fb3748bd38340d5d/PPercolation.cpp">Code</a>.
+          <br>Arxiv version: <a href=https://arxiv.org/abs/1912.01757>here</a>.</li>
+        <li>Feynman checkers: the probability to find an electron vanishes 
+          nowhere inside the light cone, Reviews Math Physics 34:07, 
+          2250020 (2022). 
+          <a href=https://doi.org/10.1142/S0129055X22500209>https://doi.org/10.1142/S0129055X22500209</a>.
+          <br>Arxiv version: <a href="https://arxiv.org/abs/2010.05088">here</a>.</li>
+        <li> Cutting Polygons Composed of Equal Rectangles into Similar 
+          Rectangles, Math Notes 110, 726–731 (2021).
+          <a href=https://doi.org/10.1134/S0001434621110092>https://doi.org/10.1134/S0001434621110092</a> (In English and in Russian).
+          <br>Arxiv version (in Russian only): <a href=https://arxiv.org/abs/1809.06627>here</a>.</li>
+      </ul>
+
+      <h2> Preprints, submitted, or work in progress:</h2>
+      <ul>
+        <li>Zero-Sum Repeated Games with Stage Duration and Public Signals. 
+          <em>Work in progress</em>.</li>
+      </ul>
+    </div>
+
+    <div id="CV" class="tabcontent">
+        <script> </script>
+        <a id="1"></a>
+        <p > Last updated: 01/03/2023.
+        <a href="files/pdf/CV/Curriculum_Vitae.pdf">Download CV in pdf format</a>.
+        </p>
+
+        <h2>Education</h2>
+
+        <ul>
+          <li>2021–...: Ph.D. in Mathematics, Université Paris-Dauphine;</li>
+          <li>2020–2021: M.Sc. in Optimization, Université Paris-Saclay;</li>
+          <li>2016–2020: B.Sc. in Mathematics, National Research University Higher School of Economics (Moscow).</li>
+        </ul>
+
+        <h2>Talks on seminars</h2>
+
+        <ul>
+          <li>Combinatorial and number-theoretic problems on lattices, 
+            Higher School of Economics, Moscow (participated online), 16/02/2023;</li>
+          <li>I.Kh. Sabitov's Seminar, Moscow State University, Moscow, 25/10/2019.</li>
+        </ul>
+
+        <h2>Scholarships</h2>
+
+        <p>2020–2021: Sophie Germain Master's Scholarship (FMJH).</p>
+
+        <h2>Skills</h2>
+
+        <ul>
+          <li style="list-style-type: '&#128187 ';">Computer skills: C++, Python, Wolfram Mathematica, Matlab, ...</li>
+          <li style="list-style-type: '&#127758 ';">Language skills: 
+            <img src="images/flags/eng_flag.png" width="40px">English (Fluent), 
+            <img src="images/flags/fra_flag.png" width="40px">French (~Fluent), 
+            <img src="images/flags/rus_flag.png" width="40px">Russian (mother tongue).</li>
+        </ul>
+
+    </div>
+
+    <script>document.getElementById("defaultOpen").click();</script>
+
+</body>
+</html> 

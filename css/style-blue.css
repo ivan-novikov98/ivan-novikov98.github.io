@@ -3,7 +3,7 @@ body {
     background-color: #ccf2ff;
     color: black;
     /*font*/
-    font-size:30px;
+    font-size:20px;
     font-weight: 450; /*bold level*/
     /*font-family: Papyrus;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,7 +30,7 @@ li {
 }
 
 .main_heading{
-    font-size:30px;
+    font-size:23px;
     font-weight:900;
     text-align:center;
     margin-bottom: 10px;
@@ -47,7 +47,7 @@ li {
     outline: none;
     cursor: pointer;
     padding: 0px 1px;
-    font-size: 30px;
+    font-size: 23px;
     width: 33%;
   }
   

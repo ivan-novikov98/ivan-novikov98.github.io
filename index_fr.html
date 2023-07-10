@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-blue.css">
+    <link rel="stylesheet" href="css/style-green.css">
     <link rel="icon" type="image/x-icon" href="images/favicon2.ico">
     <title>Page Web d'Ivan Novikov</title>
     <script src="js/open page.js"></script>
+    <script src="js/Last updated.js"></script>
     <!--<script src="js/toggle theme.js"></script>-->
     <base target="_blank">
 </head>
@@ -17,32 +18,31 @@
     <a href="index.html" target="_self"><img style="float: right;" alt="" src="images/flags/eng_flag.png" width="39px" height="23px"/></a>
   </p>
   
-  <button class="tablink" onclick="openPage('Main Page', this, '#1ac6ff')" id="defaultOpen">Page d'accueil</button>
-  <button class="tablink" onclick="openPage('Publications', this, '#1ac6ff')">Publications</button>
-  <button class="tablink" onclick="openPage('CV', this, '#1ac6ff')">Curiculum Vitae</button>
+  <button class="tablink" onclick="openPage('Main Page', this, '#3EFFA5')" id="defaultOpen">Page d'accueil</button>
+  <button class="tablink" onclick="openPage('Publications', this, '#3EFFA5')">Publications</button>
+  <button class="tablink" onclick="openPage('CV', this, '#3EFFA5')">Curiculum Vitae</button>
 
     <div id="Main Page" class="tabcontent">
       <p>Je suis doctorant de 2e année à l'Université Paris-Dauphine qui travaille au 
         <a href="https://www.ceremade.dauphine.fr/">CEREMADE</a> 
         sous la direction de
         <a href="https://www.ceremade.dauphine.fr/~vigeral/index.html">Guillaume Vigeral</a>.
-      </p>
-      <p>
         Aussi j'ai un Master 2 en Optimisation de l'Université Paris-Saclay
         (derecteur 
         <a href="https://www.ceremade.dauphine.fr/~vigeral/index.html">Guillaume Vigeral</a>) 
         et une Licence en Mathématiques de Higher School of Economics (derecteur 
         <a href="https://users.mccme.ru/mskopenkov/">Mikhail Skopenkov</a>).
-      </p>
-
-      <p><b>Thèmes de Recherche</b> : Jeux répétés à somme nulle, en temps 
+        <br> <br>
+        <b>Thèmes de Recherche</b> : Jeux répétés à somme nulle, en temps 
         discret et en temps continu; 
-        Valeur limite dans jeux répétés à somme nulle.</p>  
+        Valeur limite dans jeux répétés à somme nulle.
+        <br> <br>
+      </p>  
         
         <footer style="white-space: nowrap;">
           <hr>
           email: i.n*vik*v1998 [at] gmail.com, where *=o.
-          <span style="float:right">Dernière mise à jour: 10/07/2023</span></p>
+          <span style="float:right">Dernière mise à jour : <span id = "date1"></span></span>
         </footer>     
     </div>
     
@@ -50,19 +50,20 @@
       <p>Tous les articles publiés sont donnés avec la version d'Arxiv.
         Notez que la version d'Arxiv peut être différent de la version du journal.</p>
 
-      <h2>Publié :</h2>
+      <h3>Publié :</h3>
       <ul>
         <li>Percolation of three fluids on a honeycomb lattice, Monatsh Math 199, 611-626
           (2022). 
           <a href="https://doi.org/10.1007/s00605-022-01753-7">https://doi.org/10.1007/s00605-022-01753-7</a>.
-          <br>Matériaux supplémentaires:
-          <a href="files/pdf/additional materials/Experiment description.pdf">Description de l'expérience</a>.
+          <br>Matériaux supplémentaires :
+          <a href="files/pdf/additional materials/Experiment description.pdf">Description de l'expérience</a>;
           <a href="https://github.com/ivan-novikov98/percolation-in-hexagonal-lattice/blob/678162632acad33f56661d66fb3748bd38340d5d/PPercolation.cpp">Code</a>.
           <br>Version d'Arxiv : <a href=https://arxiv.org/abs/1912.01757>here</a>.</li>
         <li>Feynman checkers: the probability to find an electron vanishes 
           nowhere inside the light cone, Reviews Math Physics 34:07, 
           2250020 (2022). 
           <a href=https://doi.org/10.1142/S0129055X22500209>https://doi.org/10.1142/S0129055X22500209</a>
+          <br>Matériaux supplémentaires : <a href="files/pdf/additional materials/feynman checkers/pres 2.pdf">Micro-présentation sur une partie de l'article</a>.
           <br>Version d'Arxiv : <a href="https://arxiv.org/abs/2010.05088">here</a>.</li>
         <li> Cutting Polygons Composed of Equal Rectangles into Similar 
           Rectangles, Math Notes 110, 726–731 (2021).
@@ -70,23 +71,23 @@
           <br>Version d'Arxiv (en russe) : <a href=https://arxiv.org/abs/1809.06627>here</a>.</li>
       </ul>
 
-      <h2> Préprints, soumis, ou travaux en cours :</h2>
+      <h3> Préprints, soumis, ou travaux en cours :</h3>
       <ul>
         <li>Zero-Sum Repeated Games with Stage Duration and Public Signals. 
           <em>Travaux en cours</em>.
-          <br><a href="files/pdf/additional materials/stage duration/poster1.pdf">Poster</a>;
-          <br><a href="files/pdf/additional materials/stage duration/light talk.pdf">Teaser pour le poster (mini-présentation)</a>.</li>
+          <br>Matériaux supplémentaires : <a href="files/pdf/additional materials/stage duration/poster1.pdf">Poster</a>;
+          <a href="files/pdf/additional materials/stage duration/light talk.pdf">Teaser pour le poster (micro-présentation)</a>.</li>
       </ul>
     </div>
 
     <div id="CV" class="tabcontent">
         <script> </script>
         <a id="1"></a>
-        <p > Dernière mise à jour: 10/07/2023.
+        <span> Dernière mise à jour : <span id = "date2"></span>.
         <a href="files/pdf/CV/CV_fra.pdf">Télécharger au format pdf</a>.
-        </p>
+    </span>
 
-        <h2>Éducation</h2>
+        <h3>Éducation</h3>
 
         <ul>
           <li>2021–...: Doctorat en Mathématiques, Université Paris-Dauphine;</li>
@@ -94,13 +95,13 @@
           <li>2016–2020: Licence en Mathématiques, National Research University Higher School of Economics (Moscou).</li>
         </ul>
 
-        <h2>Exposés dans des conférences</h2>
+        <h3>Exposés dans des conférences</h3>
 
         <ul>
           <li>The 2023 Alpine Game Theory Symposium, Grenoble, 26/06/2023 – 30/06/2023, un exposé éclair + poster.</li>
         </ul>
 
-        <h2>Exposés dans des séminaires</h2>
+        <h3>Exposés dans des séminaires</h3>
 
         <ul>
           <li>Combinatorial and number-theoretic problems on lattices, 
@@ -108,11 +109,13 @@
           <li>I.Kh. Sabitov's Seminar, Moscow State University, Moscow, 25/10/2019.</li>
         </ul>
 
-        <h2>Bourses</h2>
+        <h3>Bourses</h3>
 
-        <p>2020–2021: Bourse de Master Sophie Germain (FMJH).</p>
+        <ul>
+          <li>2020–2021: Bourse de Master Sophie Germain (FMJH).</li>
+        </ul>
 
-        <h2>Compétences</h2>
+        <h3>Compétences</h3>
 
         <ul>
           <li style="list-style-type: '&#128187 ';">Informatique: C++, Python, Wolfram Mathematica, Matlab, ...</li>
@@ -126,5 +129,7 @@
 
     <script>document.getElementById("defaultOpen").click();</script>
 
+    <script>document.getElementById("date1").innerHTML = LastUpdated;</script>
+    <script>document.getElementById("date2").innerHTML = LastUpdated;</script>
 </body>
 </html> 

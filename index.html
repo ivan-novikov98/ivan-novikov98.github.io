@@ -8,7 +8,8 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Ivan Novikov's homepage</title>
     <script src="js/open page.js"></script>
-    <script src="js/Last updated.js"></script>
+    <script src="js/Last updated1.js"></script>
+    <script src="js/Last updated2.js"></script>
     <!--<script src="js/toggle theme.js"></script>-->
     <base target="_blank">
 </head>
@@ -24,6 +25,7 @@
   <button class="tablink" onclick="openPage('Main Page', this, '#3EFFA5')" id="defaultOpen">Main Page</button>
   <button class="tablink" onclick="openPage('Publications', this, '#3EFFA5')">Publications</button>
   <button class="tablink" onclick="openPage('CV', this, '#3EFFA5')">Curiculum Vitae</button>
+  <button class="tablink" onclick="openPage('Teaching', this, '#3EFFA5')">Teaching</button>
 
     <div id="Main Page" class="tabcontent">
       <p>I am a 2nd year PhD student at Université Paris-Dauphine working at 
@@ -78,15 +80,16 @@
         <li>Zero-Sum Repeated Games with Stage Duration and Public Signals. 
           <em>Work in progress</em>.
           <br>Additional materials: <a href="files/pdf/additional materials/stage duration/poster1.pdf">Poster</a>;
-          <a href="files/pdf/additional materials/stage duration/light talk.pdf">Teaser for the poster (micro-presentation)</a>.</li>
+          <a href="files/pdf/additional materials/stage duration/light talk.pdf">Teaser for the poster (micro-presentation)</a>;
+          <a href="files/pdf/additional materials/stage duration/presentation-30.pdf">30 minute presentation</a>.</li>
       </ul>
     </div>
 
     <div id="CV" class="tabcontent">
         <script> </script>
         <a id="1"></a>
-        <div> Last updated: <span id = "date2"></span>.
-        <a href="files/pdf/CV/Curriculum_Vitae.pdf">Download CV in pdf format</a>.
+        <div>
+        <a href="files/pdf/CV/Curriculum_Vitae.pdf">Download CV in pdf format (last updated: <span id = "date2"></span>)</a>.
         </div>
 
         <h3>Education</h3>
@@ -100,7 +103,8 @@
         <h3>Conference Talks</h3>
 
         <ul>
-          <li>The 2023 Alpine Game Theory Symposium, Grenoble, 26/06/2023 – 30/06/2023, lightning talk + poster presentation.</li>
+          <li>The 2023 Alpine Game Theory Symposium (Grenoble, France), 26/06/2023 – 30/06/2023, lightning talk + poster presentation.</li>
+          <li>Journées annuelles 2023 du GdR MOA (Perpignan, France), 18/10/2023 – 20/10/2023, 30 minute presentation </li>
         </ul>
 
         <h3>Seminar Talks</h3>
@@ -128,9 +132,13 @@
         </ul>
     </div>
 
+    <div id="Teaching" class="tabcontent">
+    <p>Fall 2023: (L3) Differential calculus and optimization (teaching assistant, 44h, in French)</p>
+    </div>
+
     <script>document.getElementById("defaultOpen").click();</script>
 
-    <script>document.getElementById("date1").innerHTML = LastUpdated;</script>
-    <script>document.getElementById("date2").innerHTML = LastUpdated;</script>
+    <script>document.getElementById("date1").innerHTML = LastUpdated1;</script>
+    <script>document.getElementById("date2").innerHTML = LastUpdated2;</script>
 </body>
 </html> 

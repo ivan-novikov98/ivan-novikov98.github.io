@@ -186,7 +186,29 @@
       </ul>
     </div>
 
-    <script>document.getElementById("defaultOpen").click();</script>
+
+
+
+
+    <!-- SCRIPTS >-->
+
+    <script>
+      let hash = decodeURIComponent(window.location.hash.substring(1));
+      let tabToOpen = document.getElementById("defaultOpen");
+
+      if (hash && document.getElementById(hash)) {
+        let buttons = document.getElementsByClassName("tablink");
+        
+        for (let i = 0; i < buttons.length; i++) {
+          if (buttons[i].getAttribute("onclick").includes("'" + hash + "'")) {
+            tabToOpen = buttons[i];
+            break;
+          }
+        }
+      }
+      
+      tabToOpen.click();
+    </script>
 
     <script>document.getElementById("date1").innerHTML = LastUpdated1;</script>
     <script>document.getElementById("date2").innerHTML = LastUpdated2;</script>

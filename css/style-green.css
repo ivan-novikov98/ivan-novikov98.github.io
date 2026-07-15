@@ -77,7 +77,8 @@ li {
   .tabcontent {
     color: black;
     display: none;
-    padding: 55px 0px;
+    clear: both; 
+    padding: 17px 0px;
     height: 100%;
   }
 

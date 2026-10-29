@@ -1,2 +1,2 @@
-let LastUpdated2 = "13/07/2026"
+let LastUpdated2 = "29/10/2026"
 //for pdf CV
